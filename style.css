@@ -112,3 +112,13 @@ body.light {
   display: inline-block;
   color: #0ff;
 }
+@media (max-width: 600px) {
+  section, header, form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  h1, h2, h3, p {
+    line-height: 1.5;
+  }
+}
